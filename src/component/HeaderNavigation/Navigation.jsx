@@ -20,7 +20,6 @@ const Navigation = () => {
 
   const navItemsNo = [
     { link: "About Us", path: "" },
-    { link: "Contact Us", path: "" },
   ];
 
   const [isMenuOpen, setIsMenuOpen] = useState(false);
