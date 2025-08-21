@@ -143,7 +143,7 @@ const Navigation = () => {
           <div className="flex space-x-2 items-center">
             <FiPhoneCall color="white" className="" size={20} />
             <p className="text-[14px] text-white hover:decoration-solid hover:underline hover:decoration-[#00b207] hover:decoration-2 hover:underline-offset-4 ">
-              (219) 555-0114
+              (977) 981-8741679
             </p>
           </div>
         </div>

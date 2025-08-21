@@ -1,8 +1,6 @@
 import React from "react";
-import TagItem from "../../component/TagShop/TagItem";
-import PriceSlider from "../../component/PriceSliderShop/PriceSlider";
 import AllCategories from "../../component/CategoriesShop/AllCategories";
-import RatingBox from "../../component/RatingShop/RatingBox";
+
 
 function Sidebar({ handleChange }) {
   return (
@@ -12,14 +10,6 @@ function Sidebar({ handleChange }) {
         <AllCategories />
       </div>
 
-      {/* Price Slider range */}
-      <PriceSlider />
-
-      {/* Product rating filter  */}
-      <RatingBox />
-
-      {/* Popular tags list  */}
-      <TagItem />
     </>
   );
 }
