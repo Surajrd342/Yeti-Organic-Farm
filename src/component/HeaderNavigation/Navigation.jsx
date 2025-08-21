@@ -19,7 +19,6 @@ const Navigation = () => {
   const totalPrice = useSelector((state) => state.cart.totalPrice);
 
   const navItemsNo = [
-    { link: "Blog", path: "" },
     { link: "About Us", path: "" },
     { link: "Contact Us", path: "" },
   ];

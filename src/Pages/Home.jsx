@@ -17,7 +17,7 @@ import SummerBanner from "../component/HomePage/SummerBanner";
 import ShippingDetails from "../component/HomePage/ShippingDetails";
 import { NavLink } from "react-router-dom";
 
-function Home() {
+function  Home() {
   return (
     <div className="">
       {/* Home section */}
