@@ -1,4 +1,4 @@
-import logo from "../../assets/logo2.png";
+import logo from "../../assets/logoWeb.png";
 import applepay from "../../assets/ApplePay.png";
 import visa from "../../assets/Visa.png";
 import discover from "../../assets/Discover.png";
@@ -12,21 +12,23 @@ function Footer() {
       <div className="grid md:grid-cols-12 gap-3 mt-10 mb-10">
         <div className="col-span-4 mb-3">
           <NavLink to="/">
-            <div className="w-[183px] h-[38px]">
+            <div className="w-28 lg:w-24">
               <img src={logo} alt="logo" />
             </div>
           </NavLink>
           <p className="text-[#808080] text-[14px] leading-[21px] mt-2 lg:w-[336px]">
-            Morbi cursus porttitor enim lobortis molestie. Duis gravida turpis
-            dui, eget bibendum magna congue nec.
+            "Bringing the Pure taste of Himalayas to Your table, We offer
+            fresh,organic, & locally Sourced food items straight from the Heart
+            of Mountains.Healthy , Natural , & Chemical-free. - Just the way
+            NATURE intended."
           </p>
           <div className="lg:flex gap-2 items-center mt-5">
             <p className="text-[14px] leading-[21px] text-white hover:decoration-solid hover:underline hover:decoration-[#00b207] hover:decoration-2 hover:underline-offset-8 ">
-              (219) 555-0114
+              (977) 981-8741679
             </p>
             <p className="text-[14px] leading-[21px] text-[#808080]">or</p>
             <p className="text-[14px] leading-[21px] text-white hover:decoration-solid hover:underline hover:decoration-[#00b207] hover:decoration-2 hover:underline-offset-8 ">
-              proxy12@gmail.com
+              yetigreenstore@gmail.com
             </p>
           </div>
         </div>
@@ -78,7 +80,7 @@ function Footer() {
 
       <div className="md:flex justify-between items-center pt-4 border-t-[1px] border-[#333333] space-y-2">
         <p className="text-[#808080] text-[14px] leading-[21px] text-center">
-          Ecobazar eCommerce © 2024. All Rights Reserved
+          Yeti Green Store © 2025. All Rights Reserved
         </p>
         <div className="flex gap-2 h-[32px] justify-center">
           <div className="flex  gap-2">
