@@ -15,16 +15,7 @@ function HotDeals() {
   const filterProductHot = AllProductData.filter(
     (hProduct) => hProduct.hotDeals === true
   );
-
-  // const dispatch = useDispatch();
-
-  // useEffect(() => {
-  //   dispatch(hotProduct(true));
-  // }, [dispatch])
-
-  // const filterProductHot = useSelector((state) => state.products.hotProductFilt)
-  // console.log(filterProductHot)
-
+  
   return (
     <>
       <section className="p-4 mt-10 bg-[#F7F7F7] lg:container lg:mx-auto lg:px-28 md:container md:mx-auto md:px-10">

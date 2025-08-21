@@ -5,7 +5,7 @@ import { RiCustomerService2Line } from "react-icons/ri";
 import { HiShoppingBag } from "react-icons/hi2";
 import { MdAssignmentReturn } from "react-icons/md";
 import ClientTestomonial from "../component/HomePage/ClientTestomonial";
-import LatestNews from "../component/HomePage/LatestNews";
+
 import FollowPartner from "../component/HomePage/FollowPartner";
 import PopularProducts from "../component/HomePage/PopularProducts";
 import FeaturedProducts from "../component/HomePage/FeaturedProducts";
@@ -105,9 +105,6 @@ function Home() {
 
       {/* Featured Products */}
       <FeaturedProducts />
-
-      {/* Latest News */}
-      <LatestNews />
 
       {/* Client Testominial */}
       <ClientTestomonial />

@@ -14,8 +14,12 @@ function SubscriptionNews() {
               Subcribe our Newsletter
             </p>
             <p className="text-[14px] leading-[21px] text-[#999999] mt-1 lg:text-left text-center">
-              Pellentesque eu nibh eget mauris congue mattis mattis nec tellus.
-              Phasellus imperdiet elit eu magna.
+              Stay connected with Yeti Organic Farm and never miss an update
+              from our fields. By subscribing to our newsletter, you’ll receive
+              the latest news on fresh organic arrivals, special discounts,
+              seasonal harvests, and a glimpse into life on the farm all
+              delivered straight to your inbox. Join our community and be part
+              of the journey toward healthy, sustainable living.
             </p>
           </div>
           <div className="md:ml-[30px] lg:mr-[-70px] md:flex content-center">
