@@ -1,0 +1,147 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+body {
+  font-family: "Poppins", sans-serif;
+}
+
+/* .gridone {
+  background-image: linear-gradient(60deg, rgba(0,0,0,0.9949229691876751) 0%, rgba(255,255,255,1) 100%), url('./assets/banner.jfif');
+  background-size: cover;
+} */
+
+/* .gridone::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background-image: linear-gradient(60deg, rgba(0,0,0,0.9949229691876751) 0%, rgba(255,255,255,1) 100%);
+}
+
+.gridone {
+  background-image: url('./assets/banner.jfif');
+  background-size: cover;
+  background-position: center;
+  position: relative;
+} */
+
+.popularProductImage {
+  height: auto;
+  width: auto;
+}
+
+/* .eye-margin {
+  margin-right: 80px;
+} */
+
+/* .rheart:hover {
+  fill : #00B207;
+}
+
+.rcart:hover {
+  fill : #00B207;
+} */
+
+.footerP {
+  @apply text-[14px] leading-[21px] text-[#808080];
+  @apply hover:text-white duration-150;
+}
+
+input:focus {
+  outline: none;
+  border: none;
+}
+
+.logo {
+  @apply w-[183px] h-[38px];
+}
+
+.navMobile {
+  z-index: 10001 !important;
+  @apply block fixed top-0 right-0 left-0;
+}
+
+.buttonPrimary {
+  @apply flex items-center gap-2 duration-150 text-primary bg-white rounded-full 
+  text-center px-[36px] py-[12px] mt-5 font-semibold hover:bg-primary hover:text-white;
+}
+
+.buttonSecondary {
+  @apply flex gap-2 items-center text-[16px] font-semibold text-primary mt-3 hover:text-[#2C742F];
+}
+
+.buttonTertiary {
+  @apply flex gap-2 text-[16px] font-semibold text-primary mt-3 hover:text-white;
+}
+
+.gridone {
+  /* @apply bg-[url('./assets/mainbanner.png')]; */
+  background-image:
+  linear-gradient(
+    60deg,
+    rgba(0,0,0,0.9024859943977591) 0%,
+    rgba(15,166,35,0.5411414565826331) 200%
+  ),
+  url('./assets/mainbanner.png');
+  background-size: cover;
+}
+
+.salebg {
+  background-image:
+  linear-gradient(
+    60deg,
+    rgba(0, 0, 0, 0.891281512605042) 0%,
+    rgba(15, 166, 35, 0.9781162464985994) 100%
+  ),
+  url('../src/assets/dbanner.jfif');
+  background-size: cover;
+}
+
+
+.latestbgImg1 {
+  /* background-image:
+  linear-gradient(
+    60deg,
+    rgba(0, 0, 0, 0.891281512605042) 0%,
+    rgba(15, 166, 35, 0.9781162464985994) 100%
+  ),
+  url('../src/assets/limage1.png');
+  background-size: cover; */
+}
+
+IoIosArrowRoundBack {
+  @apply md:size-[30] 
+}
+
+
+.clogo {
+ @apply items-center;
+}
+
+
+.heartIcon {
+  color: #20B526;
+}
+
+.heartIcon:hover {
+  color: white;
+}
+
+.css-1glm590-MuiSlider-root {
+  color: #00B207;
+}
+
+.css-c253rh-MuiButtonBase-root-MuiCheckbox-root {
+  padding: 5px !important;
+  padding-left: 0px !important;
+}
+
+.dropdown-label {
+  color: black !important;
+}
+
+.star-size {
+  font-size: 24px; /* Adjust this value to your desired size */
+}
+
